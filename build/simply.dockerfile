@@ -85,4 +85,4 @@ COPY ./build/bin/simply-install.sh /srv/simply-install.sh
 RUN chmod +x /srv/simply-install.sh
 
 WORKDIR /srv/simply
-CMD ["/srv/simply-install.sh"]
+RUN /srv/simply-install.sh
