@@ -1,3 +1,7 @@
-<h1 align=center>simply-docker</h1>
+# simply-docker (archived)
 
-simply-docker is a quick way create a [Simply](https://github.com/Amorfx/simply) WordPress install meant for testing and continuous integration.
+This repository is no longer maintained. The Simply boilerplate now ships its own development environment
+(PHP 8.2 to 8.4 with Apache, MariaDB, WP-CLI): see the "Development environment with Docker" section of
+https://github.com/Amorfx/simply#readme
+
+    composer create-project clementdecou/simply my-project
